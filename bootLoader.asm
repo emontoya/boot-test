@@ -5,7 +5,7 @@
 main:		; Label for the start of the main program
 
  mov ax,0x0000	; Setup the Data Segment register
-		; Location of data is DS:Offset
+; Location of data is DS:Offset
  mov ds,ax	; This can not be loaded directly it has to be in two steps.
 		; 'mov ds, 0x0000' will NOT work due to limitations on the CPU
 
